@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="File8.fs" />
+    <Compile Include="File10.fs" />
+    <Compile Include="File9.fs" />
+    <Compile Include="File7.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
