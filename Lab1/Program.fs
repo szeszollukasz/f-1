@@ -13,9 +13,11 @@ let main argv =
         printfn "%d" x
     Console.ReadLine();
 
-    let sortedList = File9.sort
+    let list = [1; 4; 8; -2; 5; 1; 1; 1; 2; -2; -3;]
+    let sortedList = File9.sort list
+
     for x in sortedList do
-        printfn "%d" x
+        printfn "%d" 
     Console.ReadLine();
 
     let value = File10.func 10
