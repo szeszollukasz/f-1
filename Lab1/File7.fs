@@ -23,15 +23,13 @@ let drawTree =
             else Console.Write(" ");
         Console.WriteLine();
 
-    //Console.WriteLine("C")
-    //for i in 0 .. height do
-    //    for j in 0 .. width do
-    //        if j >= i then
-    //            if (j % 2 = 0) then
-    //             Console.Write("*");
-    //        else 
-    //            Console.Write("");
-    //    Console.WriteLine();
+    Console.WriteLine("C")
+    for i in 0 .. height do        
+        for j in 0 .. width do
+            if ( j >= width - i) then
+                Console.Write("*");
+            else Console.Write(" ");
+        Console.WriteLine();
 
     
 
