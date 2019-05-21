@@ -1,5 +1,7 @@
 ﻿module File10
 
+
+// TODO : No idea if it makes sense , to verify
 let rec func (k : int) =
     
     if (k < 0) then
@@ -8,6 +10,6 @@ let rec func (k : int) =
         true
     elif (k / 4 > 0 && k % 3 = 0 ) then
         false
-    elif (k / 2 = 1 && k % 2 = 0 ) then
-        func (k * 2)
+    elif (k / 2 >= 1 && k % 2 = 0 ) then
+        func (k / 2)
     else false
